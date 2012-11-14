@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E46C912716585E9E001690F0 /* BrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = E46C912616585E9E001690F0 /* BrowserController.m */; };
+		E494F0D116535DD800D58DF6 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E494F0CF16535DD800D58DF6 /* Quartz.framework */; };
+		E494F0D216535DD800D58DF6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E494F0D016535DD800D58DF6 /* QuartzCore.framework */; };
+		E4D12F6C16C8B74E00762BEB /* BrowserItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D12F6B16C8B74E00762BEB /* BrowserItem.m */; };
+		E4D27A9916D2079900571624 /* Photo Renamer.iconset in Resources */ = {isa = PBXBuildFile; fileRef = E4D27A9716D2079900571624 /* Photo Renamer.iconset */; };
+		E4F9978A1653569D006F13CF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F997891653569D006F13CF /* Cocoa.framework */; };
+		E4F997941653569D006F13CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4F997921653569D006F13CF /* InfoPlist.strings */; };
+		E4F997961653569D006F13CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F997951653569D006F13CF /* main.m */; };
+		E4F9979D1653569D006F13CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F9979C1653569D006F13CF /* AppDelegate.m */; };
+		E4F997A01653569E006F13CF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4F9979E1653569E006F13CF /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E46C912516585E9E001690F0 /* BrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserController.h; sourceTree = "<group>"; };
+		E46C912616585E9E001690F0 /* BrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserController.m; sourceTree = "<group>"; };
+		E494F0CF16535DD800D58DF6 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		E494F0D016535DD800D58DF6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E4D12F6A16C8B74E00762BEB /* BrowserItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserItem.h; sourceTree = "<group>"; };
+		E4D12F6B16C8B74E00762BEB /* BrowserItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserItem.m; sourceTree = "<group>"; };
+		E4D27A9816D2079900571624 /* en */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; name = en; path = "en.lproj/Photo Renamer.iconset"; sourceTree = "<group>"; };
+		E4F997851653569D006F13CF /* Photo Renamer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo Renamer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4F997891653569D006F13CF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E4F9978C1653569D006F13CF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E4F9978D1653569D006F13CF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E4F9978E1653569D006F13CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E4F997911653569D006F13CF /* Photo Renamer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Photo Renamer-Info.plist"; sourceTree = "<group>"; };
+		E4F997931653569D006F13CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E4F997951653569D006F13CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4F997971653569D006F13CF /* Photo Renamer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Photo Renamer-Prefix.pch"; sourceTree = "<group>"; };
+		E4F9979B1653569D006F13CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E4F9979C1653569D006F13CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E4F9979F1653569E006F13CF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4F997821653569D006F13CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E494F0D116535DD800D58DF6 /* Quartz.framework in Frameworks */,
+				E494F0D216535DD800D58DF6 /* QuartzCore.framework in Frameworks */,
+				E4F9978A1653569D006F13CF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4F9977A1653569D006F13CF = {
+			isa = PBXGroup;
+			children = (
+				E494F0CF16535DD800D58DF6 /* Quartz.framework */,
+				E494F0D016535DD800D58DF6 /* QuartzCore.framework */,
+				E4F9978F1653569D006F13CF /* Photo Renamer */,
+				E4F997881653569D006F13CF /* Frameworks */,
+				E4F997861653569D006F13CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4F997861653569D006F13CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4F997851653569D006F13CF /* Photo Renamer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4F997881653569D006F13CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4F997891653569D006F13CF /* Cocoa.framework */,
+				E4F9978B1653569D006F13CF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4F9978B1653569D006F13CF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4F9978C1653569D006F13CF /* AppKit.framework */,
+				E4F9978D1653569D006F13CF /* CoreData.framework */,
+				E4F9978E1653569D006F13CF /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E4F9978F1653569D006F13CF /* Photo Renamer */ = {
+			isa = PBXGroup;
+			children = (
+				E4F9979B1653569D006F13CF /* AppDelegate.h */,
+				E46C912516585E9E001690F0 /* BrowserController.h */,
+				E46C912616585E9E001690F0 /* BrowserController.m */,
+				E4F9979C1653569D006F13CF /* AppDelegate.m */,
+				E4F9979E1653569E006F13CF /* MainMenu.xib */,
+				E4F997901653569D006F13CF /* Supporting Files */,
+				E4D12F6A16C8B74E00762BEB /* BrowserItem.h */,
+				E4D12F6B16C8B74E00762BEB /* BrowserItem.m */,
+			);
+			path = "Photo Renamer";
+			sourceTree = "<group>";
+		};
+		E4F997901653569D006F13CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4D27A9716D2079900571624 /* Photo Renamer.iconset */,
+				E4F997911653569D006F13CF /* Photo Renamer-Info.plist */,
+				E4F997921653569D006F13CF /* InfoPlist.strings */,
+				E4F997951653569D006F13CF /* main.m */,
+				E4F997971653569D006F13CF /* Photo Renamer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4F997841653569D006F13CF /* Photo Renamer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4F997A31653569E006F13CF /* Build configuration list for PBXNativeTarget "Photo Renamer" */;
+			buildPhases = (
+				E4F997811653569D006F13CF /* Sources */,
+				E4F997821653569D006F13CF /* Frameworks */,
+				E4F997831653569D006F13CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Photo Renamer";
+			productName = "Photo Renamer";
+			productReference = E4F997851653569D006F13CF /* Photo Renamer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4F9977C1653569D006F13CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Gandalf Hernandez";
+			};
+			buildConfigurationList = E4F9977F1653569D006F13CF /* Build configuration list for PBXProject "Photo Renamer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E4F9977A1653569D006F13CF;
+			productRefGroup = E4F997861653569D006F13CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4F997841653569D006F13CF /* Photo Renamer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4F997831653569D006F13CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4F997941653569D006F13CF /* InfoPlist.strings in Resources */,
+				E4F997A01653569E006F13CF /* MainMenu.xib in Resources */,
+				E4D27A9916D2079900571624 /* Photo Renamer.iconset in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4F997811653569D006F13CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4F997961653569D006F13CF /* main.m in Sources */,
+				E4F9979D1653569D006F13CF /* AppDelegate.m in Sources */,
+				E46C912716585E9E001690F0 /* BrowserController.m in Sources */,
+				E4D12F6C16C8B74E00762BEB /* BrowserItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E4D27A9716D2079900571624 /* Photo Renamer.iconset */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4D27A9816D2079900571624 /* en */,
+			);
+			name = "Photo Renamer.iconset";
+			sourceTree = "<group>";
+		};
+		E4F997921653569D006F13CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4F997931653569D006F13CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E4F9979E1653569E006F13CF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4F9979F1653569E006F13CF /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4F997A11653569E006F13CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E4F997A21653569E006F13CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E4F997A41653569E006F13CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Photo Renamer/Photo Renamer-Prefix.pch";
+				INFOPLIST_FILE = "Photo Renamer/Photo Renamer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4F997A51653569E006F13CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Photo Renamer/Photo Renamer-Prefix.pch";
+				INFOPLIST_FILE = "Photo Renamer/Photo Renamer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4F9977F1653569D006F13CF /* Build configuration list for PBXProject "Photo Renamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F997A11653569E006F13CF /* Debug */,
+				E4F997A21653569E006F13CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4F997A31653569E006F13CF /* Build configuration list for PBXNativeTarget "Photo Renamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F997A41653569E006F13CF /* Debug */,
+				E4F997A51653569E006F13CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4F9977C1653569D006F13CF /* Project object */;
+}
