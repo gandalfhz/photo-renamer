@@ -9,7 +9,7 @@
 	<key>CFBundleIconFile</key>
 	<string>Photo Renamer.icns</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.torrentialrain.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>com.torrentialrain.photo-renamer</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -27,7 +27,7 @@
 	<key>LSMinimumSystemVersion</key>
 	<string>${MACOSX_DEPLOYMENT_TARGET}</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2012-13 Gandalf Hernandez. All rights reserved.</string>
+	<string>Copyright © 2012-13 Gandalf Hernandez.</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
