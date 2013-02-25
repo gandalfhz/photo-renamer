@@ -363,15 +363,32 @@
 
 }
 
+- (void)moveToImageInDirection:(BOOL)forward
+{
+  if (_images.count == 0) // Check should not be necessary
+    return;
+
+  // Have a loop in case we for some reason get into a folder with only folders
+  // (should not happen, since then we shouldn't have been able to get into previewing
+  NSUInteger step = forward ? 1 : _images.count - 1;
+  for (NSUInteger i = (_previewIndex+step) % _images.count; i != _previewIndex; i = (i+step) % _images.count) {
+    BrowserItem *image = _images[i];
+    if (!image.isFolder) {
+      [self imageBrowser:self.browser cellWasDoubleClickedAtIndex:i % _images.count];
+      [self.browser setSelectionIndexes:[NSIndexSet indexSetWithIndex:i] byExtendingSelection:NO];
+      break;
+    }
+  }
+}
+
 - (IBAction)nextImage:(id)sender
 {
-  [self imageBrowser:self.browser cellWasDoubleClickedAtIndex:(_previewIndex+1) % _images.count];
-  [self.browser setSelectionIndexes:[NSIndexSet indexSetWithIndex:_previewIndex] byExtendingSelection:NO];
+  [self moveToImageInDirection:YES];
 }
 
 - (IBAction)previousImage:(id)sender
 {
-  [self imageBrowser:self.browser cellWasDoubleClickedAtIndex:(_previewIndex+_images.count-1) % _images.count];
+  [self moveToImageInDirection:NO];
 }
 
 - (void)zoomTo:(float)newZoomFactor
